@@ -5,12 +5,23 @@
 <button id="translate_en" onclick="make_french()">French</button>
 
 <h1 data-localize="greeting">Hello world!</h1>
+
+<style>
+.variable {
+    color: #AAAAFF;
+    font-weight: bold;
+}
+</style>
+
 <ul>
     <li>
         <span data-localize="phonesList.one">iPhone</span>
     </li>
     <li>
         <span data-localize="phonesList.two">Google Nexus 17</span>
+    </li>
+    <li> 
+        <span data-localize="phonesList.three">The <span class="variable">big</span> cheese!</span>
     </li>
 </ul>
 
@@ -28,3 +39,4 @@ var make_french = function(){
 }
 
 </script>
+

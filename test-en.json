@@ -2,6 +2,7 @@
     "greeting": "Hello world!",
     "phonesList": {
         "one": "iPhone",
-        "two": "Google Nexus 17"
+        "two": "Google Nexus 17",
+        "three": "The <span class='variable'>big</span> cheese!"
     }
 }

@@ -2,6 +2,7 @@
     "greeting": "Bonjour le monde!",
     "phonesList": {
         "one": "le iPhone",
-        "two": "le Androide"
+        "two": "le Androide",
+        "three": "le <span class='variable'>grand</span> fromage!"
     }
 }

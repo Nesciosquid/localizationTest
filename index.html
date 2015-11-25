@@ -1,0 +1,19 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./jquery.localize.min.js"></script>
+
+<button id="translate_en" onclick="make_english()">English</button>
+<button id="translate_en" onclick="make_french()">French</button>
+
+<h1 data-localization="greeting">Hello world!</h1>
+
+<script>
+
+var make_english = function(){
+    $("[data-localize]").localize("test", {language: "en"});
+}
+
+var make_french = function(){
+    $("[data-localize]").localize("test", {language: "fr"});
+}
+
+</script>

@@ -1,3 +1,7 @@
 {
-    "greeting": "Bonjour le monde!"
+    "greeting": "Bonjour le monde!",
+    "phonesList": {
+        1: "le iPhone",
+        2: "le Androide"
+    }
 }
